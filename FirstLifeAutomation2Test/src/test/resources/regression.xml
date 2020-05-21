@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mySuite">
+	<test name="Tests">
+		<classes>
+			<class name="com.firstlife.scripts.return_simple_life_insurance.CreatProposalTest_01" />
+			<class name="com.firstlife.scripts.return_simple_life_insurance.UnderwrittingReqTest_01" />
+			<class name="com.firstlife.scripts.return_simple_life_insurance.UnderwrittingTest_01" />
+			<class name="com.firstlife.scripts.return_simple_life_insurance.AcceptanceTest_01" />
+			<class name="com.firstlife.scripts.return_simple_life_insurance.ConversionTest_01" />
+			<class name="com.firstlife.scripts.return_simple_life_insurance.PolicyEnquireTest_01" />
+			<class name="com.firstlife.scripts.return_simple_life_insurance.InforceTest_01" />
+		</classes>
+	</test>
+</suite>

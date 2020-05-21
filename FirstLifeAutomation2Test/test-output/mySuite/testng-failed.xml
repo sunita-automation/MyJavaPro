@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [mySuite]" parallel="tests">
+  <test name="Tests-R2  (failed)" parallel="tests">
+    <classes>
+      <class name="com.firstlife.scripts.return_simple_life_insurance.CreatProposalTest_01">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="afterMainMethod"/>
+          <include name="revCreateDirectory"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="CreatAProposal"/>
+          <include name="getExtent"/>
+          <include name="getExtent"/>
+          <include name="flushToReport"/>
+          <include name="flushToReport"/>
+          <include name="startReport"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.firstlife.scripts.return_simple_life_insurance.CreatProposalTest_01 -->
+    </classes>
+  </test> <!-- Tests-R2  (failed) -->
+  <test name="Tests-R1(failed)" parallel="tests">
+    <classes>
+      <class name="com.firstlife.scripts.return_simple_life_insurance.CreatProposalTest_01">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="afterMainMethod"/>
+          <include name="revCreateDirectory"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="CreatAProposal"/>
+          <include name="getExtent"/>
+          <include name="getExtent"/>
+          <include name="flushToReport"/>
+          <include name="flushToReport"/>
+          <include name="startReport"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.firstlife.scripts.return_simple_life_insurance.CreatProposalTest_01 -->
+    </classes>
+  </test> <!-- Tests-R1(failed) -->
+</suite> <!-- Failed suite [mySuite] -->

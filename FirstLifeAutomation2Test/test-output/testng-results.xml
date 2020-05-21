@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31454" started-at="2019-08-22T10:41:32Z" finished-at="2019-08-22T10:42:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31454" started-at="2019-08-22T10:41:32Z" finished-at="2019-08-22T10:42:04Z">
+      <class name="com.firstlife.test.Test1">
+        <test-method status="PASS" signature="revCreateDirectory()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="revCreateDirectory" is-config="true" duration-ms="0" started-at="2019-08-22T16:11:32Z" finished-at="2019-08-22T16:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- revCreateDirectory -->
+        <test-method status="PASS" signature="getExtent()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="getExtent" is-config="true" duration-ms="0" started-at="2019-08-22T16:11:32Z" finished-at="2019-08-22T16:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="setUp" is-config="true" duration-ms="6521" started-at="2019-08-22T16:11:32Z" finished-at="2019-08-22T16:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="startReport" is-config="true" duration-ms="63" started-at="2019-08-22T16:11:39Z" finished-at="2019-08-22T16:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="openLoginPage" duration-ms="23562" started-at="2019-08-22T16:11:39Z" finished-at="2019-08-22T16:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="getResult" is-config="true" duration-ms="0" started-at="2019-08-22T16:12:02Z" finished-at="2019-08-22T16:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openLoginPage status=SUCCESS method=Test1.openLoginPage()[pri:0, instance:com.firstlife.test.Test1@2b9627bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flushToReport()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="flushToReport" is-config="true" duration-ms="478" started-at="2019-08-22T16:12:02Z" finished-at="2019-08-22T16:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushToReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="tearDown" is-config="true" duration-ms="813" started-at="2019-08-22T16:12:03Z" finished-at="2019-08-22T16:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.firstlife.test.Test1@2b9627bc]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2019-08-22T16:12:04Z" finished-at="2019-08-22T16:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.firstlife.test.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<suite name="Selenium TestNG Suite" parallel="tests" thread-count="5">
+
+    <test name="Selenium TestNG - 1">
+        <parameter name="browser" value="firefox" />
+        <parameter name="port" value="9595" />
+        <parameter name="ip" value=""/>
+        <classes>
+            <class name="com.firstlife.scripts.quotetion.Test1" />
+        </classes>
+    </test>
+    <test name="Selenium TestNG - 2">
+        <parameter name="browser" value="chrome" />
+        <parameter name="port" value="8585" />
+        <parameter name="ip" value=""/>
+        <classes>
+            <class name="com.firstlife.scripts.quotetion.Test1" />
+        </classes>
+    </test>
+
+</suite>
